@@ -3,9 +3,9 @@ class Bank:
         self.name=name
         self.accountNumber=accountNumber
         self.phone=phone
-    def createAccont(self):
+    def createAccont(self,name,accountNumber,phone):
         return f"This {self.name} has created an account with {self.accountNumber}"
-    def deposit(self):
+    def deposit(self, name,accountNumber,phone,):
         return f"Get you balance on {self.phone}"
         
 

@@ -106,7 +106,7 @@ function vowel(str2){
     var vowel_list="ieuoaIEUOA";
     var a=0;
     for(var y=0;y<str2.length;y++){
-        if(vowel_list.indexOf(str2[y])!==0){
+        if(vowel_list.indexOf(str2[y])!==1){
             a+=x;  
         }
     }
