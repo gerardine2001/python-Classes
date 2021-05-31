@@ -10,3 +10,16 @@ while guess != number:
         else:
             print("you need to guess lower:try again")
             guess=int(input("guess anumber between 1 nad 50:"))
+
+
+
+import random
+number=5
+guess=int(input("guess that numbers less than 5:"))
+
+
+if guess < 5:
+    print("numbers which less than 5:")
+else:
+    print("try again")    
+
